@@ -901,11 +901,15 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-bottom: 0;
 	}
 
 		ul.icons li {
 			display: inline-block;
-			padding: .35em 0.75em .35em 0;
+			padding: .65em .7em .35em .7em;
 		}
 
 			ul.icons li:last-child {
