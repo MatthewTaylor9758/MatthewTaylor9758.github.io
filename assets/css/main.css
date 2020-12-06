@@ -604,6 +604,8 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		display: flex;
+		align-items: center;
 	}
 
 		.icon:before {
@@ -903,7 +905,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: .35 0.75em .35 0;
+			padding: .35em 0.75em .35em 0;
 		}
 
 			ul.icons li:last-child {
@@ -913,18 +915,26 @@ input, select, textarea {
 			ul.icons li div a {
 				border-radius: 100%;
 				box-shadow: inset 0 0 0 1px #ffffff;
-				display: inline-block;
-				height: 2.25rem;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 5.25rem;
 				line-height: 2.25rem;
 				text-align: center;
-				width: 2.25rem;
+				width: 5.25rem;
 			}
+
+				ul.icons li div a img{
+					height: inherit;
+				}
 
 			ul.icons li div p {
 				text-align: center;
+				font-size: 1.2em;
 			}
 
 				ul.icons li div a:hover {
+					cursor: pointer;
 					background-color: rgba(255, 255, 255, 0.075);
 				}
 
