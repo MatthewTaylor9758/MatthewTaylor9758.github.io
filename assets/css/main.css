@@ -775,6 +775,10 @@ input, select, textarea {
 
 /* Actions */
 
+	#profile-pic {
+		width: fit-content;
+	}
+
 	ul.actions {
 		display: -moz-flex;
 		display: -webkit-flex;
